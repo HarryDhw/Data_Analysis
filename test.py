@@ -21,5 +21,10 @@
 # %S 秒数(00~59)
 # '''
 
-for index, item in enumerate(['harry', 'yoyo', 'jimi']):
-    print(index, item)
+# for index, item in enumerate(['harry', 'yoyo', 'jimi']):
+#     print(index, item)
+
+import plotly.express as px
+
+for key in px.colors.named_colorscales():
+    print(key)
